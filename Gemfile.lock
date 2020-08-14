@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.3)
+    ethon (0.12.0)
+      ffi (>= 1.3.0)
+    excon (0.76.0)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.13.1)
+    http-2 (0.10.2)
+    httpclient (2.8.3)
+    multipart-post (2.1.1)
+    net-http-persistent (4.0.0)
+      connection_pool (~> 2.2)
+    net-http2 (0.18.2)
+      http-2 (~> 0.10.1)
+    patron (0.13.3)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  excon
+  faraday
+  httpclient
+  net-http-persistent
+  net-http2
+  patron
+  typhoeus
+
+BUNDLED WITH
+   2.1.4
